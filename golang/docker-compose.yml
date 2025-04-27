@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  go-fibonacci:
+    build: .
+    ports:
+      - "8091:8080"
+    restart: always
+
